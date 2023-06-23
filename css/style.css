@@ -1,0 +1,214 @@
+*{
+    margin: 0px auto;
+    padding: 0px;  
+    font-family: 'Kalam', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Noto Serif HK', serif;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif; 
+}
+/**************BARRA DE NAVEGACION********************/
+
+nav{
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto
+}
+.imagenhoja{
+    background-color: aqua;
+    border-radius: 1em/1em;
+}
+h1{
+    font-size: -webkit-xxx-large;
+}
+.nav-start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buscador{
+    display: flex;
+    border: 2px solid black;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 2em / 1em;    
+}
+.buscar{
+    border: 0px;
+    width: 240px;
+    position: relative;
+    background: transparent;
+    outline: none;
+    bottom: 4px;
+    padding: 2px;
+    margin-right: 160px;
+}
+
+
+.imagenlupa{
+    width: 20px;
+    border: 0px;
+    position: relative;
+    top: 1px;
+    margin-left: 40px;
+
+}
+.sign{
+    display: flex;
+    width: 160px;
+    justify-content: space-around;
+}
+.sign, a{
+    color: black;
+    text-decoration: none;
+    align-items: center;
+   
+
+}
+.imagencarro{
+    width: 40px;
+}
+.nav-end, ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+    align-items: center;
+    height: 70px;
+    border-bottom: 3px solid black;
+}
+ul a{
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/************************MAIN*************************/
+
+main{
+    justify-content: center;
+    display: flex;
+    margin:0px auto;
+    flex-direction: column;
+
+}
+.title{
+    align-content: center;
+    padding: 30px;
+    width: 1000px;
+    justify-content: center;
+    display: flex;
+    font-size: xx-large;
+}
+.box1{
+    background-color: rgba(0, 163, 114, 0.89);
+    width: 340px;
+    height: 325px;
+    text-align: center;
+}
+.discover{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin-top: -30px;
+}
+.row1{
+    display: flex;
+}
+.box3_1{
+    background-color: rgba(0, 163, 114, 0.89);
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 32px;
+}
+.parrafo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 80px;
+
+
+}
+.row2{
+    align-content: center;
+    background-color: rgb(182, 255, 255);
+    height: 190px;
+    width: 1000px;
+    margin-top: 15px;
+    display: flex;
+}
+.plantas{
+    border-radius: 50%;
+    width: 100px;
+    padding: 30px;
+}
+.box3{
+    margin-left: 10px;
+}
+.flecha{
+    width: 30px;
+    height: 30px;
+}
+.tipo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+
+
+/***********************FOOTER************************/
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    
+}
+.cookie_policy{
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.cookie_policy .textocookie{
+    width: 65%;
+    height: 120px;    
+    display: flex;
+    align-items: center;
+}
+.titlecookie{
+    justify-content: left;
+}
+.linkcookie{
+    color: blue;
+    text-decoration: underline;
+}
+
+.btn{
+    background-color: rgba(0, 163, 114, 0.89);
+    border: 2px solid black;
+    -webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    2px 2px 0px 0px rgba(0, 0, 0, 0.945);
+    box-shadow:         4px 4px 0px 0px rgba(0, 0, 0, 0.932);/* para hacer la sombra negra se debe usar la pagina boxshadowgenerator*/
+    padding: 5px 2px; 
+    font-style: normal;
+    font-family: sans-serif; 
+    color: white;
+    width: 100px;
+
+}

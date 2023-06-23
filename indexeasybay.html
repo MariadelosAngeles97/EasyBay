@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Succulent Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Lobster&family=Noto+Serif+HK&family=Patrick+Hand&family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-start">
+                <img class="imagenhoja" src="images/leaf.png" alt="imagen leaf">
+                <h1>EasyBay</h1>
+
+                <div class="buscador">
+                    <form action="#">
+                        <input type="text" class="buscar" placeholder="Search for anything">
+                        <input type="image" src="images/search-dark.png" alt="imagenlupa" class="imagenlupa">
+                    </form>
+                </div>
+
+                <div class="sign">
+                <p><a href="#">Sign In</a></p>
+                <input onclick="click_carro()" type="image" src="images/cart-dark.png" alt="imagen carro" class="imagencarro">
+                </div>
+            </div>
+
+            <div class="nav-end">
+                <ul>
+                    <li><a href="#">Aeonium</a></li>
+                    <li><a href="#">Andormischus</a></li>
+                    <li><a href="#">Agave</a></li>
+                    <li><a href="#">Aloe</a></li>
+                    <li><a href="#">Anacampseros</a></li>
+                    <li><a href="#">Aristaloe</a></li>
+                    <li><a href="#">More...</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2 class="title">Your Source for Serious Succulent Specialties</h2>
+
+        <div class="row1">
+            <div class="box1">
+                <h2 class="parrafo">Discover succ-ulents varieties one pot or rack at a time!</h2>
+                <div class="discover">
+                    <h2>Discover</h2>
+                    <input type="image" class="flecha" src="images/arrow-light.png" alt="imagen flecha" >
+                </div>
+            </div>
+
+            <div class="box2">
+                <input class="cambio" onmouseover="over(this)" onmouseout="out(this)" type="image" src="images/succulents-1.jpg" alt="imagen succulents 1">
+            </div>
+
+            <div class="box3">
+                <input type="image" src="images/aloe-m.jpg" alt="imagen aloe">
+                <div class="box3_1">
+                    <p>Soothing aloe</p>
+                    <input type="image" class="flecha" src="images/arrow-light.png" alt="imagen flecha">
+                </div>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="imgplantas">
+                <input type="image" class="plantas" src="images/aeonium-s.jpg" alt="imagen aeonium">
+                <p class="tipo">Sempervivum</p>
+            </div>
+            <div class="imgplantas">
+                <input type="image" class="plantas" src="images/aloe-s.jpg" alt="imagen aloe">  
+                <p class="tipo">Aeonium</p> 
+            </div> 
+            <div class="imgplantas"> 
+                <input type="image" class="plantas" src="images/cactus-s.jpg" alt="imagen cactus"> 
+                <p class="tipo">Aloe</p>
+            </div>
+            <div class="imgplantas">
+                <input type="image" class="plantas" src="images/echeveria-s.jpg" alt="imagen echeveria">
+                <p class="tipo">Cactus</p> 
+            </div> 
+            <div class="imgplantas">       
+                <input type="image" class="plantas" src="images/sedum-s.jpg" alt="imagen sedum">
+                <p class="tipo">Echeveria</p> 
+            </div> 
+            <div class="imgplantas">         
+                <input type="image" class="plantas" src="images/sempervivum-s.jpg" alt="imagen supervivum">
+                <p class="tipo">Sedum</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="cookie_policy">
+            <img src="images/alert-dark.png" alt="cookie_policy">
+            <div class="textocookie">
+                <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our. <a href="#" class="linkcookie">cookie policy.</a></p>
+            </div>
+        <button class="btn" onclick="dissmissbtn()">I accept</button>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
